@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Large Text with Button and Box</title>
+  <title>Auto-Open Box After 3 Seconds</title>
   <style>
     body {
       font-family: sans-serif;
@@ -28,7 +28,6 @@
       border-radius: 4px;
     }
 
-    /* Modal box styling */
     .modal {
       display: none; /* Hidden by default */
       position: fixed;
@@ -67,7 +66,7 @@
   <div id="myModal" class="modal">
     <div class="modal-box">
       <h2>This is a Box!</h2>
-      <p>You opened this by clicking the button.</p>
+      <p>You opened this automatically after 3 seconds.</p>
       <button class="btn close-btn" onclick="closeBox()">Close</button>
     </div>
   </div>
@@ -80,6 +79,11 @@
     function closeBox() {
       document.getElementById('myModal').style.display = 'none';
     }
+
+    // Automatically open the box after 3 seconds
+    window.onload = function() {
+      setTimeout(openBox, 3000); // 3000 ms = 3 seconds
+    };
   </script>
 
 </body>
