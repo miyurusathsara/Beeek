@@ -1,33 +1,86 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My New Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Large Text with Button and Box</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      margin: 40px;
+      font-family: sans-serif;
+      padding: 40px;
+      background-color: #f0f0f0;
     }
-    h1 {
+
+    .large-text {
+      font-size: 1.5em;
+      line-height: 1.6;
       color: #333;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    /* Modal box styling */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Overlay */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-box {
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 8px;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .close-btn {
+      margin-top: 20px;
+      background-color: #dc3545;
     }
   </style>
 </head>
 <body>
 
-  <!-- New content in the body -->
-  <h1>Welcome to My Page</h1>
-  <p>This is a new HTML body with some sample content.</p>
+  <div class="large-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo nibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem. Integer sed diam imperdiet, finibus justo sed, tincidunt nunc.
+  </div>
 
-  <button onclick="showMessage()">Click Me</button>
+  <button class="btn" onclick="openBox()">Click to Open Box</button>
+
+  <!-- Modal Box -->
+  <div id="myModal" class="modal">
+    <div class="modal-box">
+      <h2>This is a Box!</h2>
+      <p>You opened this by clicking the button.</p>
+      <button class="btn close-btn" onclick="closeBox()">Close</button>
+    </div>
+  </div>
 
   <script>
-    function showMessage() {
-      alert("Hello from the new body!");
+    function openBox() {
+      document.getElementById('myModal').style.display = 'flex';
+    }
+
+    function closeBox() {
+      document.getElementById('myModal').style.display = 'none';
     }
   </script>
 
 </body>
 </html>
-
