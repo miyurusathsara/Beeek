@@ -42,7 +42,7 @@
 
     .modal-box {
       background-color: white;
-      padding: 20px 30px;
+      padding: 50px 90px;
       border-radius: 8px;
       max-width: 500px;
       text-align: center;
