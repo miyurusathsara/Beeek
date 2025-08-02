@@ -57,7 +57,7 @@
 <body>
 
   <div class="large-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo nibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem. Integer sed diam imperdiet, finibus justo sed, tincidunt nunc.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  est. Sed Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  dui lorem. Integer sed diam imperdiet, finibus justo sed, tincidunt nunc.
   </div>
 
   <button class="btn" onclick="openBox()">Click to Open Box</button>
@@ -66,7 +66,7 @@
   <div id="myModal" class="modal">
     <div class="modal-box">
       <h2>This is a Box!</h2>
-      <p>You opened this automatically after 3 seconds.</p>
+      <p>You opened Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in consequat tortor, a tincidunt metus. Duis pharetra augue nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  augue nec quam scelerisque, a commodo sssssssssnibh scelerisque. Mauris non feugiat turpis, ut varius purus. Suspendisse ut posuere est. Sed at dui lorem.  automatically after 3 seconds.</p>
       <button class="btn close-btn" onclick="closeBox()">Close</button>
     </div>
   </div>
