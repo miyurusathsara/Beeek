@@ -82,7 +82,7 @@
 
     // Automatically open the box after 3 seconds
     window.onload = function() {
-      setTimeout(openBox, 50); // 3000 ms = 3 seconds
+      setTimeout(openBox, 5000); // 3000 ms = 3 seconds
     };
   </script>
 
