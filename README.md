@@ -33,8 +33,8 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      width: auto;
+      height: auto;
       background-color: rgba(0, 0, 0, 0.5); /* Overlay */
       justify-content: center;
       align-items: center;
@@ -81,7 +81,7 @@
     }
 
     // Automatically open the box after 3 seconds
-    window.onload = function() {
+    window.onload = funtion() {
       setTimeout(openBox, 5000); // 3000 ms = 3 seconds
     };
   </script>
